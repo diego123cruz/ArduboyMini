@@ -39,7 +39,7 @@
 
 #define PIN_CS 1 // <==== ARDUBOY MINI       // Display CS Arduino pin number
 #define CS_PORT PORTD   // Display CS port
-#define CS_BIT PORTD3   // Display CS physical bit number
+#define CS_BIT PORTD3 // <==== ARDUBOY MINI   // Display CS physical bit number
 
 #define PIN_DC 4        // Display D/C Arduino pin number
 #define DC_PORT PORTD   // Display D/C port
@@ -47,7 +47,7 @@
 
 #define PIN_RST 2 // <==== ARDUBOY MINI       // Display reset Arduino pin number
 #define RST_PORT PORTD  // Display reset port
-#define RST_BIT PORTD1  // Display reset physical bit number
+#define RST_BIT PORTD1 // <==== ARDUBOY MINI // Display reset physical bit number
 
 #define RED_LED 10   /**< The pin number for the red color in the RGB LED. */
 #define GREEN_LED 11 /**< The pin number for the greem color in the RGB LED. */
